@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.whats__new {
+    background-color: #002B33;
+    margin-top: 72%;
+}
+
+.hero {
+    height: 58rem;
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    z-index: -999;
+    top: 0px;
+}
+
+.hero__shown{
+    opacity: 1;
+    transition: opacity 1000ms ease-in-out;
+}
+
+.hero__hidden{
+    opacity: 0;
+    transition: opacity 1000ms ease-in-out;
+}
+

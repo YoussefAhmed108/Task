@@ -1,0 +1,16 @@
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    z-index: 5;
+    position: relative;
+    /* Add transition for smooth animation */
+}
+
+.card {
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    flex: 0 0 auto;
+    width: 300px;
+    transition: transform 0.5s ease;
+}
